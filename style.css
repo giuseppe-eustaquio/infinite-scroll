@@ -37,3 +37,26 @@ h1 {
   /* to center the actual image */
   transform: translate(-50%, -50%);
 }
+
+/* image container */
+
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* media query: large smartphone */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
